@@ -8,6 +8,5 @@ int main()
     {
         ++i;
     }
-    print("You entered a number %d times", i);
     
 }
