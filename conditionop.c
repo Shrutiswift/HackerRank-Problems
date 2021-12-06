@@ -2,17 +2,14 @@
 
 int main() {
     // main variable declaration
-    int a,x;
+    int a,b,c;
+    int great;
 
-    // io
-    printf("Enter the value of a:\n");
-    scanf("%d", &a);
-    printf("The input was: %d\n", a);
+    scanf("%d%d%d", &a, &b, &c);
+    printf("Enter 3 numbers:\n");
+    
+    great = (a>b&a>c?a:b>c? b:c);
+    printf("The greatest number is", great);
 
-    // conditional operator usage
-    x = (a % 2 == 0 ? 0 : 1);
-
-    printf("The result of x is %d\n", x);
-
-    return 0;
+    
 }
